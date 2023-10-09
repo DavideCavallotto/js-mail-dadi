@@ -46,3 +46,25 @@ if (trovato === true) {
 }
 
 
+// # Dadi
+
+// - assegno un numero random da 1 a 6 al giocatore
+playerNum = Math.floor(Math.random() * (6 - 1) + 1);
+console.log(playerNum, 'numero del player');
+
+// - assegno un numero random da 1 a 6 al computer
+computerNum = Math.floor(Math.random() * (6 - 1) + 1);
+console.log(computerNum, 'numero del computer');
+// - confronto i numeri usciti
+//     - se il numero del giocare è più alto
+//         - stampo: winner
+if (playerNum > computerNum) {
+    console.log('winner')
+
+}
+//     - altrimenti
+//         - stampo: loser
+else  {
+    console.log('loser')
+}
+

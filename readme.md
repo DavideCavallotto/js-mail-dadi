@@ -11,3 +11,14 @@
         - stampo passed
     - altrimenti
         - stampo unpassed 
+
+
+# Dadi
+
+- assegno un numero random da 1 a 6 al giocatore
+- assegno un numero random da 1 a 6 al computer
+- confronto i numeri usciti
+    - se il numero del giocare è più alto
+        - stampo: winner
+    - altrimenti
+        - stampo: loser
