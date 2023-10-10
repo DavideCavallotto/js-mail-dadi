@@ -20,5 +20,7 @@
 - confronto i numeri usciti
     - se il numero del giocare è più alto
         - stampo: winner
-    - altrimenti
+    - altrimenti se il numero è più basso
         - stampo: loser
+    - altrimenti
+        -  stampo: equality 

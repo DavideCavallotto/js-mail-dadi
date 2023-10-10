@@ -10,11 +10,11 @@ const listMail = [
     'foxtrot@gmail.com',   
 ]
 
-console.log(listMail)
+console.log(listMail);
 
     // - creo una variabile che mi dica quante è lungo l'Array
 const lunghArray = listMail.length;
-console.log(lunghArray)
+console.log(lunghArray);
 
 // - chiedo la mail all'utente
     // - tramite un prompt chiede all'utente di inserire la sua email
@@ -34,7 +34,6 @@ for (let i = 0; i < lunghArray; i++ ) {
    
 }
 
-// currentMail = 'foxtrot@gmail.com';
 // - se la variabile 'trovato' è uguale a 'true'
 //     - stampo passed
 if (trovato === true) {
@@ -61,10 +60,14 @@ console.log(computerNum, 'numero del computer');
 if (playerNum > computerNum) {
     console.log('winner')
 
-}
-//     - altrimenti
-//         - stampo: loser
-else  {
+//     - altrimenti se il numero è più basso
+//         - stampo: loser    
+} else if (playerNum < computerNum) {
     console.log('loser')
+//     - altrimenti
+//         - stampo: equality 
+} else {
+    console.log('equality')
+
 }
 
